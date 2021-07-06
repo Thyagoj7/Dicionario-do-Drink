@@ -63,79 +63,79 @@ public class Drink {
     public Ingrediente getIngrediente1() {
         return ingrediente1;
     }
-    public void setIngrediente1() {
-        this.ingrediente1=ingrediente1;
+    public void setIngrediente1(Ingrediente ingrediente1) {
+        this.ingrediente1= this.ingrediente1;
     }
 
     @Column(name= "Ingrediente2", nullable = false)
     public Ingrediente getIngrediente2() {
         return ingrediente2;
     }
-    public void setIngrediente2() {
-        this.ingrediente2=ingrediente2;
+    public void setIngrediente2(Ingrediente ingrediente2) {
+        this.ingrediente2= this.ingrediente2;
     }
 
     @Column(name= "Ingrediente3", nullable = true)
     public Ingrediente getIngrediente3() {
         return ingrediente3;
     }
-    public void setIngrediente3() {
-        this.ingrediente3=ingrediente3;
+    public void setIngrediente3(Ingrediente ingrediente3) {
+        this.ingrediente3= this.ingrediente3;
     }
 
     @Column(name= "Ingrediente4", nullable = true)
     public Ingrediente getIngrediente4() {
         return ingrediente4;
     }
-    public void setIngrediente4() {
-        this.ingrediente4=ingrediente4;
+    public void setIngrediente4(Ingrediente ingrediente4) {
+        this.ingrediente4= this.ingrediente4;
     }
 
     @Column(name= "Ingrediente5", nullable = true)
     public Ingrediente getIngrediente5() {
         return ingrediente5;
     }
-    public void setIngrediente5() {
-        this.ingrediente5=ingrediente5;
+    public void setIngrediente5(Ingrediente ingrediente5) {
+        this.ingrediente5= this.ingrediente5;
     }
     @Column(name= "origem", nullable = true)
     public String getOrigem() {
         return origem;
     }
-    public void setOrigem() {
-        this.origem=origem;
+    public void setOrigem(String origem) {
+        this.origem= this.origem;
     }
 
     @Column(name="alcool", nullable = false)
     public Boolean getAlcool() {
         return alcool;
     }
-    public void setAlcool() {
-        this.alcool=alcool;
+    public void setAlcool(Boolean alcool) {
+        this.alcool= this.alcool;
     }
 
     @Column(name="doce", nullable= false)
     public int getDoce() {
         return doce;
     }
-    public void setDoce() {
-        this.doce=doce;
+    public void setDoce(int doce) {
+        this.doce= this.doce;
     }
 
     @Column(name="citrico", nullable = false)
     public int getCitrico() {
         return citrico;
     }
-    public void setCitrico() {
-        this.citrico=citrico;
+    public void setCitrico(int citrico) {
+        this.citrico= this.citrico;
     }
 
     @Column(name="refrescante", nullable = false)
     public int getRefrescante() {
         return refrescante;
     }
-    public void setRefrescante() {
-        this.refrescante=refrescante;
+    public void setRefrescante(int refrescante) {
+        this.refrescante= this.refrescante;
     }
 
 
